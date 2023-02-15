@@ -91,3 +91,16 @@ a {
 .filled {
     color: #FB8200;
 }
+
+/* Footer styles */
+.footer {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 450px;
+    line-height: 15px;
+    border-radius: 5px;
+    background: #0A0826;
+}
+.social a {
+    margin-right: 8px;
+}
