@@ -1,0 +1,35 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600&display=swap');
+
+/* Common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+}
+
+.primary-button {
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background: #E02C6D;
+    border: none;
+    border-radius: 41px;
+}
+
+/* banner section styles */
+.banner-section {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0 0 130px;
+}
+.banner-title {
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 0;
+}
+.banner-thumbnail {
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+}
