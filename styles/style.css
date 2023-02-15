@@ -49,3 +49,40 @@ body {
     align-items: center;
     gap: 20px;
 }
+
+/* Popular collection styles */
+.collection-section {
+    margin-left: 130px;
+}
+.popular-collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.popular-collection-title {
+    color: #3A3A3A;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+}
+
+.collection {
+    width: 329px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.collection-thumbnail img {
+    width: 100%;
+}
+
+.price {
+    margin-top: -16px;
+    margin-bottom: 6px;
+}
+
+.filled {
+    color: #FB8200;
+}
