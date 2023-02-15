@@ -5,14 +5,17 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
 main {
     width: 90%;
     margin: 0 auto;
 }
+
 a {
     text-decoration: none;
     color: whitesmoke;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -64,6 +67,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
 .popular-collection-title {
     color: #3A3A3A;
     font-weight: 600;
@@ -101,37 +105,69 @@ a {
     border-radius: 5px;
     background: #0A0826;
 }
+
 .social a {
     margin-right: 8px;
 }
 
 /* Small / Mobile device responsive */
+
 @media only screen and (max-width: 688px) {
     .banner-section {
         flex-direction: column-reverse;
         text-align: center;
     }
+
     .banner-thumbnail {
         background-position: center;
     }
-    .banner-thumbnail img, .feature-thumbnail img {
+
+    .banner-thumbnail img,
+    .feature-thumbnail img {
         width: 100%;
     }
+
     .banner-title {
         font-size: 28px;
     }
+
     .sponsors {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
+
     .popular-collections {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .container {
         flex-direction: column-reverse;
         text-align: center;
     }
+
     .footer {
         padding: 10px 15px;
+    }
+}
+
+/* Tab Device Responsive */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .banner-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-thumbnail img, .feature-thumbnail img{
+        width: 100%;
+    }
+    .popular-collections {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer {
+        padding: 25px 30px;
     }
 }
