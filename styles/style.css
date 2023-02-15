@@ -104,3 +104,34 @@ a {
 .social a {
     margin-right: 8px;
 }
+
+/* Small / Mobile device responsive */
+@media only screen and (max-width: 688px) {
+    .banner-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .banner-thumbnail {
+        background-position: center;
+    }
+    .banner-thumbnail img, .feature-thumbnail img {
+        width: 100%;
+    }
+    .banner-title {
+        font-size: 28px;
+    }
+    .sponsors {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .popular-collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .footer {
+        padding: 10px 15px;
+    }
+}
